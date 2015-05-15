@@ -1,0 +1,1 @@
+<img alt="OptPro" src="/local/templates/proopt/img/logo.png" title="OptPro">

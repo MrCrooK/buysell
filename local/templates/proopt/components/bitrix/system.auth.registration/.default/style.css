@@ -1,0 +1,74 @@
+.arfiles {
+	position: relative;
+	cursor: pointer;
+}
+.arfiles input[type="file"] {
+	border: 0;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+.arfiles{
+
+}
+.arfiles .files{
+	margin-top:15px;
+}
+
+.arfiles .docs{
+	cursor: pointer;
+	display:block;
+}
+.arfiles .docs .icon{
+	display:block;
+	float:left;
+	width:44px;
+	height:47px;
+	background-position:0px -834px;
+}
+
+.arfiles .docs .icon.word{
+	height:45px;
+	margin-bottom:2px;
+	background-position:0px -744px;
+}
+.arfiles .docs .icon.excel{
+	height:45px;
+	margin-bottom:2px;
+	background-position:0px -789px;
+}
+.arfiles .docs .icon.pdf{
+	background-position:0px -697px;
+}
+.arfiles .docs span{
+	display:block;
+	margin-left:50px;
+	color:#000;
+}
+.arfiles .docs .description{
+	color:#000;
+}
+.arfiles .docs .size{
+	color:#999;
+	font-size:11px;
+}
+.arfiles .separator.x3{
+	width:100%;
+	float:left;
+	display:block;
+}
+.arfiles .docs:hover .name{
+	text-decoration:underline;
+}
+.arfiles .docs:hover,
+.arfiles .docs:hover .size,
+.arfiles .docs .size:hover{
+	text-decoration:none;
+}
+.pngicons {
+background-image: url('/upload/icons.png');
+}
