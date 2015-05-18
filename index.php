@@ -3,7 +3,7 @@ $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("Главная");
 $APPLICATION->SetPageProperty("title", "Главная");
 ?>
-
+Test
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"banners",
