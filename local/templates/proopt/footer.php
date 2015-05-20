@@ -123,7 +123,10 @@ IncludeTemplateLangFile(__FILE__);
 						/****************************************************************************************/
 						/* Удаление ссылки на разработчика является грубым нарушением лицензионного соглашения и может являться причиной отказа в оказании технической поддержки. */
 						/****************************************************************************************/
-						?>Powered by <a href="http://redsign.ru/" target="_blank">ALFA Systems</a><?
+						?>
+						<!--Powered by <a href="http://redsign.ru/" target="_blank">ALFA Systems</a>-->
+						<!--LiveInternet counter--><script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t54.2;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) +";h"+escape(document.title.substring(0,80)) +  ";" + Math.random() + "' border=0 width=88 height=31 alt='' title='LiveInternet: показано число просмотров и посетителей за 24 часа'><\/a>")</script><!--/LiveInternet-->
+						<?
 					?></div><?
 				?></div><?
 			?></div><?
